@@ -1,0 +1,9 @@
+require 'rails_helper'
+require 'spec_helper'
+
+describe Post do
+
+  it "saves itself" do
+    first = Post.new(url: "http://www.google.com", title: "Google", description: "this is a search engine"
+  end
+end
