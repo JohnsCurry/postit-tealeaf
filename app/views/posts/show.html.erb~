@@ -1,0 +1,9 @@
+<p class='lead'>
+  <%= @post.title %>
+  <hr/>
+</p>
+
+<p>
+  <%= @post.description %>
+</p>
+<hr/>
